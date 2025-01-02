@@ -120,7 +120,7 @@ export function ExpensePieChart({ categoryTotals, categoryColors, budget, onExpo
       </div>
 
       <div className="flex-1 flex items-center justify-center">
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height="100%" minHeight={200}>
           <PieChart>
             <Pie
               data={chartData}
